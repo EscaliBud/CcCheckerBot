@@ -1,6 +1,6 @@
 <?php
 
-$owners = ["6421164902", "BADDOOR"];  // Add owner ids here
+$owners = ["6691393517", "iam_daxx"];  // Add owner ids here
 
 function getUsersCount($filename) {
     if(file_exists($filename)) {
@@ -22,7 +22,7 @@ if (isset($update['message']['text'])) {
             $freeUserCount = getUsersCount('Database/free.txt');
             $paidUserCount = getUsersCount('Database/paid.txt');
             $banUserCount = getUsersCount('Database/banned.txt');
-            $response = "<b>[↯] Total users: {$freeUserCount}%0A[↯] Paid users: {$paidUserCount}%0A[↯] Banned users: {$banUserCount}%0A%0A[↯] Bot by: @BADDOOR </b>";
+            $response = "<b>[↯] Total users: {$freeUserCount}%0A[↯] Paid users: {$paidUserCount}%0A[↯] Banned users: {$banUserCount}%0A%0A[↯] Bot by: @iam_daxx </b>";
         } else {
             $response = "<b>Bad luck!You're not the Owner ❌</b>";
         }

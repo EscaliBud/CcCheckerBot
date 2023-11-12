@@ -7,11 +7,11 @@ $freeusers = explode("\n", $users);
 $videoURLStart = "https://t.me/DartNetc/6";
 
 
-if (preg_match('/^(\/start|\.start|!start)/', $text)) {
+if (preg_match('/^(start)/', $text)) {
     if (in_array($userId, $freeusers)) {
         $caption = "<b> HELLO @$username 
 ID ✏️ <code>$userId</code></b><code>
-Welcome 🤗 To ↯ Luxury Chk⚡️ ↯, Let's Check You're CC And Other Stuff. Click On '/cmds' To Check My Power 🔥 </code> <code>button</code>";
+Welcome 🤗 To ↯ Daxx Chk⚡️ ↯, Let's Check You're CC And Other Stuff. Click On ' /cmds ' To Check My Power # /cmds </code> <code>button</code> /cmds";
         sendVideox($chatId, $videoURLStart, $caption, $keyboard);
     } else {
         reply_tox($chatId,$message_id,$keyboard,"<code>You are not registered, Register first with</code> /register <code> to use me</code>");

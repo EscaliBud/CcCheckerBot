@@ -25,7 +25,7 @@ if (preg_match('/^(\/id|\.id|!info)/', $text)) {
 
     $photoId = getUserProfilePhoto($userId);
 
-    $m = "<b>[火] User information %0A╔═════════════════╗%0A•├User[NAME] » @$username%0A•├User[ID] » <code>$userId</code>%0A•├Name[TG] » $firstname%0A•├User[RANK] » <code>$rank</code>%0A╚═════════════════╝%0A•├Dev » <code>@BADDOOR</code></b>";
+    $m = "<b>[火] User information %0A╔═════════════════╗%0A•├User[NAME] » @$username%0A•├User[ID] » <code>$userId</code>%0A•├Name[TG] » $firstname%0A•├User[RANK] » <code>$rank</code>%0A╚═════════════════╝%0A•├Dev » <code>@iam_daxx</code></b>";
 
     if ($photoId) {
         sendPhotox($chatId, $photoId, $m);

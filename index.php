@@ -1,6 +1,6 @@
 <?php
 
-$botToken = "6458838426:AAGfuO-lFJJrodUL8PFlXHLF89_8-qXcrec";
+$botToken = "6924069823:AAG7IbwxANPVJ5uEp0-wSs2RWTQsu0wyBmM";
 $website = "https://api.telegram.org/bot".$botToken;
 $update = file_get_contents('php://input');
 //echo $update;
@@ -28,7 +28,7 @@ $username3       = ('@'.$username);
  $info            = json_encode($update, JSON_PRETTY_PRINT); 
 $emojid = '❌';
 $emojil = '✅';
-$owner = '<code>@BADDOOR</code>';
+$owner = '<code>@iam_daxx</code>';
 $cofuid = '1212';
 $cofuid2 = '1212';
 $cofuid3 = '1212';
@@ -79,7 +79,7 @@ $callbackmessage = $update->callback_query->message->text;
 $callbackid = $update->callback_query->id;
 
 $text = $update->message->text;
-$owner = '<code>@BADDOOR</code>';
+$owner = '<code>@DAXXTEAMBOT</code>';
 
 
 
@@ -88,8 +88,8 @@ $owner = '<code>@BADDOOR</code>';
 $keyboard = json_encode([
     'inline_keyboard' => [
         [
-            ['text' => "Owner 🫡", 'url' => "https://t.me/DarNetAbou"],
-            ['text' => "BUY 💵", 'url' => "https://t.me/DarNetAbou"],
+            ['text' => "𝐎𝐖𝐍𝐄𝐑", 'url' => "https://t.me/iam_daxx"],
+            ['text' => "𝐅𝐑𝐄𝐄 𝐏𝐑𝐄𝐌𝐈𝐔𝐌", 'url' => "https://t.me/HEROKUFREECC"],
         ],
     ]
 ]);
@@ -98,12 +98,12 @@ $keyboard = json_encode([
 
 if ($cdata2 == "back") {
     // Go back to the welcome page
-    $gatesText = "<b>━━━━━━━━━━━━━━━━━━━\n" . str_repeat(' ', 20) . "『 𝑮𝑨𝑻𝑬𝑾𝑨𝒀𝑺 』 💫" . str_repeat(' ', 20) . "\n━━━━━━━━━━━━━━━━━━━\n • ┌TOTAL GATES ⇢ 9\n • ├PREMIUM GATES ⇢ 5\n • └FREE GATES ⇢ 4\n\n ├Bot By ➳ @BADDOOR</b>";
+    $gatesText = "<b>━━━━━━━━━━━━━━━━━━━\n" . str_repeat(' ', 20) . "『 𝑮𝑨𝑻𝑬𝑾𝑨𝒀𝑺 』 💫" . str_repeat(' ', 20) . "\n━━━━━━━━━━━━━━━━━━━\n • ┌TOTAL GATES ⇢ 9\n • ├PREMIUM GATES ❥︎ 5\n • └FREE GATES ⇢ 4\n\n ├𝐁𝐎𝐓 𝐁𝐘 ❥︎  @DAXXTEAMBOT</b>";
 
     $gatesText = "<b>━━━━━━━━━━━━━━━━━━━\n" 
                . str_repeat(' ', 20) . "『 𝑮𝑨𝑻𝑬𝑾𝑨𝒀𝑺 』 💫" 
                . str_repeat(' ', 20) 
-               . "\n━━━━━━━━━━━━━━━━━━━\n •├𝗧𝗼𝘁𝗮𝗹  𝗚𝗔𝗧𝗘𝗦 ⇢ 9\n •├𝗣𝗥𝗘𝗠𝗜𝗨𝗠  𝗚𝗔𝗧𝗘𝗦 ⇢ 5 \n •├𝗙𝗥𝗘𝗘 𝗚𝗔𝗧𝗘𝗦 ⇢ 4\n\n━━━━━━━━━━━━━━━━━━━\n •├Dev ➳ <code>@BADDOOR</code></b>";
+               . "\n━━━━━━━━━━━━━━━━━━━\n •├𝗧𝗼𝘁𝗮𝗹  𝗚𝗔𝗧𝗘𝗦 ⇢ 9\n •├𝗣𝗥𝗘𝗠𝗜𝗨𝗠  𝗚𝗔𝗧𝗘𝗦 ⇢ 5 \n •├𝗙𝗥𝗘𝗘 𝗚𝗔𝗧𝗘𝗦 ⇢ 4\n\n━━━━━━━━━━━━━━━━━━━\n •├Dev ➳ <code>@DAXXTEAMBOT</code></b>";
 
     $gatesKeyboard = json_encode([
         'inline_keyboard' => [
@@ -129,7 +129,7 @@ if ($cdata2 == "gates") {
     $gatesText = "<b>━━━━━━━━━━━━━━━━━━━\n" 
                . str_repeat(' ', 20) . "『 𝑮𝑨𝑻𝑬𝑾𝑨𝒀𝑺 』 💫" 
                . str_repeat(' ', 20) 
-               . "\n━━━━━━━━━━━━━━━━━━━\n •├𝗧𝗼𝘁𝗮𝗹 𝗚𝗔𝗧𝗘𝗦 ⇢ 9\n •├𝗣𝗥𝗘𝗠𝗜𝗨𝗠 𝗚𝗔𝗧𝗘𝗦 ⇢ 5\n •├𝗙𝗥𝗘𝗘  𝗚𝗔𝗧𝗘𝗦 ⇢ 4\n\n━━━━━━━━━━━━━━━━━━━\n •├Dev ➳ <code>BADDOOR</code></b>";
+               . "\n━━━━━━━━━━━━━━━━━━━\n •├𝗧𝗼𝘁𝗮𝗹 𝗚𝗔𝗧𝗘𝗦 ⇢ 9\n •├𝗣𝗥𝗘𝗠𝗜𝗨𝗠 𝗚𝗔𝗧𝗘𝗦 ⇢ 5\n •├𝗙𝗥𝗘𝗘  𝗚𝗔𝗧𝗘𝗦 ⇢ 4\n\n━━━━━━━━━━━━━━━━━━━\n •├Dev ➳ <code>DAXXTEAMBOT</code></b>";
 
   
     $gatesKeyboard = json_encode([
@@ -303,11 +303,11 @@ if ($cdata2 == "herr") {
 
 //=============PRICE===============//
 if ($cdata2 == "price") {
-    $priceText = "<b>\n" . str_repeat(' ', 20) . "『 𝑷𝒓𝒊𝒄𝒆 💸』" . str_repeat(' ', 20) . "\n╔═════════════════╗\n •├3 𝑫𝒂𝒚𝒔 𝑷𝒍𝒂𝒏 ⇢ 2$\n •├7 𝑫𝒂𝒚𝒔 𝑷𝒍𝒂𝒏 ⇢ 4$\n •├15 𝑫𝒂𝒚𝒔 𝑷𝒍𝒂𝒏 ⇢ 7$\n •├30 𝑫𝒂𝒚𝒔 𝑷𝒍𝒂𝒏 ⇢ 12$\n╚═════════════════╝\n •├Dev ➳ <code>@BADDOOR</code>\n━━━━━━━━━━━━━━━━━━━</b>";
+    $priceText = "<b>\n" . str_repeat(' ', 20) . "『 𝑷𝒓𝒊𝒄𝒆 💸』" . str_repeat(' ', 20) . "\n╔═════════════════╗\n •├3 𝑫𝒂𝒚𝒔 𝑷𝒍𝒂𝒏 ⇢ 2$\n •├7 𝑫𝒂𝒚𝒔 𝑷𝒍𝒂𝒏 ⇢ 4$\n •├15 𝑫𝒂𝒚𝒔 𝑷𝒍𝒂𝒏 ⇢ 7$\n •├30 𝑫𝒂𝒚𝒔 𝑷𝒍𝒂𝒏 ⇢ 12$\n╚═════════════════╝\n •├Dev ➳ <code>@DAXXTEAMBOT</code>\n━━━━━━━━━━━━━━━━━━━</b>";
 
     $priceKeyboard = json_encode([
         'inline_keyboard' => [
-            [['text' => '𝑯𝑶𝑴𝑬', 'callback_data' => 'back2'], ['text' => '𝑩𝑼𝒀', 'url' => 'https://t.me/DarNetAbou']]
+            [['text' => '𝑯𝑶𝑴𝑬', 'callback_data' => 'back2'], ['text' => '𝑩𝑼𝒀', 'url' => 'https://t.me/iam_daxx']]
         ]
     ]);
 
@@ -349,7 +349,7 @@ file_get_contents("https://api.telegram.org/bot$botToken/deleteMessage?chat_id=$
 //========finalize end=========//
 $channel = json_encode([
     'inline_keyboard' => [
-        [['text' => "𝗚𝗿𝗼𝘂𝗽 ", 'url' => "https://t.me/+mJebgyXCpoQ1NTQx"], ['text' => "𝗖𝗵𝗮𝗻𝗻𝗲𝗹", 'url' => "https://t.me/DarNetAbou"]],
+        [['text' => "𝗚𝗿𝗼𝘂𝗽 ", 'url' => "https://t.me/HEROKUFREECC"], ['text' => "𝗖𝗵𝗮𝗻𝗻𝗲𝗹", 'url' => "https://t.me/iam_daxx"]],
         [['text' => "𝗕𝗔𝗖𝗞 ", 'callback_data' => 'back2']]
     ]
 ]);

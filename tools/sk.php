@@ -48,7 +48,7 @@ $Currency = trim(strip_tags(getStr($stripe,'"currency": "','",')));
 [↯] 𝗖𝗨𝗥𝗥𝗘𝗡𝗖𝗬 : $Currency 
 
 [↯] 𝗖𝗵𝗲𝗰𝗸𝗲𝗱 𝗕𝘆 ↯ @$username <code>[$rank] </code>
-[↯] 𝗕𝗢𝗧 𝗕𝗬 - @BADDOOR </b>
+[↯] 𝗕𝗢𝗧 𝗕𝗬 - @DAXXTEAMBOT </b>
   ");
   sendMessage($chatId,$livmsg,$messageId);
 
@@ -82,7 +82,7 @@ $Currency = trim(strip_tags(getStr($stripe,'"currency": "','",')));
 [↯] 𝗖𝗨𝗥𝗥𝗘𝗡𝗖𝗬 : $Currency 
 
 [↯] 𝗖𝗵𝗲𝗰𝗸𝗲𝗱 𝗕𝘆 ↯ @$username <code>[$rank] </code>
-[↯] 𝗕𝗢𝗧 𝗕𝗬 - @BADDOOR </b>
+[↯] 𝗕𝗢𝗧 𝗕𝗬 - @DAXXTEAMBOT </b>
   ");
   sendMessage($chatId,$livmsg,$messageId);
 
@@ -99,7 +99,7 @@ elseif(strpos($stripe1, 'Your account cannot currently make live charges.'))
 [↯] 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 : Your account cannot currently make live charges.
 
 [↯] 𝗖𝗵𝗲𝗰𝗸𝗲𝗱 𝗕𝘆 ↯ @$username <code>[$rank] </code>
-[↯] 𝗕𝗢𝗧 𝗕𝗬 - @BADDOOR </b>
+[↯] 𝗕𝗢𝗧 𝗕𝗬 - @DAXXTEAMBOT </b>
 ");
 }
 elseif(strpos($stripe1, 'Expired API Key provided'))
@@ -112,7 +112,7 @@ elseif(strpos($stripe1, 'Expired API Key provided'))
 [↯] 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 : Expired API Key provided.
 
 [↯] 𝗖𝗵𝗲𝗰𝗸𝗲𝗱 𝗕𝘆 ↯ @$username <code>[$rank] </code>
-[↯] 𝗕𝗢𝗧 𝗕𝗬 - @BADDOOR </b>
+[↯] 𝗕𝗢𝗧 𝗕𝗬 - @DAXXTEAMBOT </b>
 ");
 }
 elseif(strpos($stripe1, 'The API key provided does not allow requests from your IP address.'))
@@ -125,7 +125,7 @@ elseif(strpos($stripe1, 'The API key provided does not allow requests from your 
 [↯] 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 : The API key provided does not allow requests from your IP address.
 
 [↯] 𝗖𝗵𝗲𝗰𝗸𝗲𝗱 𝗕𝘆 ↯ @$username <code>[$rank] </code>
-[↯] 𝗕𝗢𝗧 𝗕𝗬 - @BADDOOR </b>
+[↯] 𝗕𝗢𝗧 𝗕𝗬 - @DAXXTEAMBOT </b>
 ");
 }
 else
@@ -139,7 +139,7 @@ else
 [↯] 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 : $skmsg
 
 [↯] 𝗖𝗵𝗲𝗰𝗸𝗲𝗱 𝗕𝘆 ↯ @$username <code>[$rank] </code>
-[↯] 𝗕𝗢𝗧 𝗕𝗬 - @BADDOOR </b>
+[↯] 𝗕𝗢𝗧 𝗕𝗬 - @DAXXTEAMBOT </b>
 ");
 }
 sendMessage($chatId,$skmsg,$messageId);

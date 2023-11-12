@@ -2,7 +2,7 @@
 
 
 function antispam($chat_id) {
-    $cooldown_time = 60; // Adjust to your needs
+    $cooldown_time = 10; // Adjust to your needs
 
     if(!isset($_SESSION['last_submit'][$chat_id])) {
         $_SESSION['last_submit'][$chat_id] = time();

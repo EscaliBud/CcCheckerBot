@@ -9,7 +9,7 @@ if (strpos($message, "/redeem") === 0) {
 
     foreach ($codesAndExpiryDays as $line) {
         $line = trim($line);
-        if (strpos($line, '[') === 0 && strpos($line, ']') !== false) {
+        if (strpos($line, '') === 0 && strpos($line, '') !== false) {
             $parts = explode("|", substr($line, 1, -1)); // remove brackets and split code and expiry
             $codeFromFile = trim($parts[0]);
             

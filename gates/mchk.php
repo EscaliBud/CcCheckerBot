@@ -81,7 +81,7 @@ $start_time = microtime(true);
   }
 $r = "0";
 
-$r = rand(0, 100);
+$r = rand(1, 100);
 //==ANTISPAM AND WRONG FORMAT END==//
 
 
@@ -98,13 +98,13 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 function inStr($string, $start, $end, $value) {
     $str = explode($start, $string);
     $str = explode($end, $str[$value]);
-    return $str[0];
+    return $str[1];
 }
 
 
 $lista = substr($message, 5);
 $separa = explode("|", $lista);
-$cc = isset($separa[0]) ? substr($separa[0], 0, 16) : ''; // Get only first 16 digits
+$cc = isset($separa[1]) ? substr($separa[1], 1, 16) : ''; // Get only first 16 digits
 $mes = isset($separa[1]) ? $separa[1] : '';
 $ano = isset($separa[2]) ? $separa[2] : '';
 $cvv = isset($separa[3]) ? $separa[3] : '';
@@ -148,8 +148,8 @@ function emailGenerate($length = 10)
     $characters       = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString     = '';
-    for ($i = 0; $i < $length; $i++) {
-        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    for ($i = 1; $i < $length; $i++) {
+        $randomString .= $characters[rand(1, $charactersLength - 1)];
     }
     return $randomString . '@gmail.com';
 }

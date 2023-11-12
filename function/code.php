@@ -14,7 +14,7 @@ if ((strpos($message, "/code") === 0) || (strpos($message, "!code") === 0) || (s
     $owners = file_get_contents('Database/owner.txt');
     $admins = explode("\n", $owners);
     if (!in_array($userId, $admins)) {
-        sendMessage($chatId, "You are Not ADMIN ! ", $messageId);
+        sendMessage($chatId, "𝗬𝗼𝘂 𝗮𝗿𝗲 𝗡𝗼𝘁 𝗔𝗗𝗠𝗜𝗡  ", $messageId);
     } else {
         $command = substr($message, 6);
         $command = clean($command);
@@ -32,7 +32,7 @@ if ((strpos($message, "/code") === 0) || (strpos($message, "!code") === 0) || (s
 
         $credt = array();
         while ($amountOfCodes > 0) {
-            $rnds = 'BADDOOR-' . random_strings(4) . '-' . random_strings(4) . '-' . random_strings(4);
+            $rnds = 'DAXX-' . random_strings(4) . '-' . random_strings(4) . '-' . random_strings(4);
             $credt[] = $rnds;
             $amountOfCodes = $amountOfCodes - 1;
         }
@@ -43,7 +43,7 @@ if ((strpos($message, "/code") === 0) || (strpos($message, "!code") === 0) || (s
             fclose($credtf);
             $formattedCode = "<code>$code</code>";
             $messageToSend = urlencode(
-                "[↯] 𝗕𝗼𝘁 𝗨𝘀𝗲𝗿𝗻𝗮𝗺𝗲 : @DartNetChk_Bot \n".
+                "[↯] 𝗕𝗼𝘁 𝗨𝘀𝗲𝗿𝗻𝗮𝗺𝗲 : @DAXXTEAMBOT \n".
                 "[↯] 𝗞𝗮𝘆 𝗖𝗿𝗲𝗮𝘁𝗲𝗱 \n" .
                 "[↯] 𝗨𝘀𝗮𝗴𝗲 /redeem\n" .
                 "[↯] 𝗞𝗮𝘆 : $formattedCode\n" .
