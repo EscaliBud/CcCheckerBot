@@ -43,7 +43,7 @@ if ((strpos($message, "/code") === 0) || (strpos($message, "!code") === 0) || (s
             fclose($credtf);
             $formattedCode = "<code>$code</code>";
             $messageToSend = urlencode(
-                "[↯] 𝗕𝗼𝘁 𝗨𝘀𝗲𝗿𝗻𝗮𝗺𝗲 : @DAXXTEAMBOT \n".
+                "[↯] 𝗕𝗼𝘁 𝗨𝘀𝗲𝗿𝗻𝗮𝗺𝗲 : @IHKCCBOT \n".
                 "[↯] 𝗞𝗮𝘆 𝗖𝗿𝗲𝗮𝘁𝗲𝗱 \n" .
                 "[↯] 𝗨𝘀𝗮𝗴𝗲 /redeem\n" .
                 "[↯] 𝗞𝗮𝘆 : $formattedCode\n" .
