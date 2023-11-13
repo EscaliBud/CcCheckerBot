@@ -130,7 +130,7 @@ if (preg_match('/^(\/fake|\.fake|!fake)/', $text)) {
 ☎️ Telephone » <code>$phone</code>
 ╚═════════════════╝
 •├Req » @$username <code>[$rank]</code>
-•├Dev » <code>@iam_daxx</code>    
+•├Dev » <code>@EscaliBud</code>    
 </b>");
     sendMessage($chatId,$respo,$message_id);}
 ?>
