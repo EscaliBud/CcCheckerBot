@@ -89,7 +89,7 @@ if ((strpos($message, "/bggn") === 0) || (strpos($message, "!bhhn") === 0) || (s
         exit();
     } else {
         $lookup = '<b>火 BIN INFORMATION♻️</b>';
-        sendMessage($chatId, "<b>$lookup%0A╔═════════════════╗%0A•├BIN : <code>$bin</code>%0A•├INFO : <code>$scheme</code>%0A•├TYPE: <code>$type</code>%0A•├BRAND : <code>$brand</code>%0A•├BANK : <code>$bank</code>%0A•├COUNTRY : <code>$name</code> $emoji%0A╚═════════════════╝%0A•├CHECKED BY : @$username <code>[$rank]</code>%0A•├Dev :<code>@iam_daxx</code></b>", $message_id);
+        sendMessage($chatId, "<b>$lookup%0A╔═════════════════╗%0A•├BIN : <code>$bin</code>%0A•├INFO : <code>$scheme</code>%0A•├TYPE: <code>$type</code>%0A•├BRAND : <code>$brand</code>%0A•├BANK : <code>$bank</code>%0A•├COUNTRY : <code>$name</code> $emoji%0A╚═════════════════╝%0A•├CHECKED BY : @$username <code>[$rank]</code>%0A•├Dev :<code>@EscaliBud</code></b>", $message_id);
     }
 }
 
