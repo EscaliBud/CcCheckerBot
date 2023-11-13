@@ -139,7 +139,7 @@ $response .= "<b>•├𝑻𝒚𝒑𝒆 » <code>$type</code></b>\n";
 $response .= "<b>•├𝑪𝒐𝒖𝒏𝒕𝒓𝒚 » <code>$name</code></b>\n";
 
 // Append a custom footer to the response
-$response .= "<b>\n•├Dev » <code>@iam_daxx</code></b>";
+$response .= "<b>\n•├Dev » <code>@EscaliBud</code></b>";
 
     return $response;
 }
